@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Roboto Mono', monospace;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #202020;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title {
+    color: #fff;
+    font-size: 4em;
+}
+
+.faded {
+    font-size: 1em;
+    color: rgba(255, 255, 255, 0.4);
+}
+
+.faded.dark {
+    color: rgba(0, 0, 0, 0.5);
+    width: 17rem;
+    text-align: center;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.header-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: .5em .3em;
+    background: rgba(196, 196, 196, 0.28);
+    border-radius: 7px;
+    border: 1px solid rgba(0, 0, 0, 0.10);
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+#bio {
+    margin: 10vh;
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.black {
+    color: #000;
+}
+
+.bio-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bio-faq {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10vh;
+}
+
+.bio-faq__question {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: .5em;
+    max-width: 30rem;
+    text-align: center;
+    margin: 3em 0;
+}
+
+.semi-faded {
+    font-size: 3em;
+    color: rgba(0, 0, 0, 0.9);
+}
+
+.github-link {
+    display: block;
+}
+
+.github-link:hover {
+    text-decoration: underline;
+}
+
+.github-image__img {
+    display: block;
+    margin: 0 10px;
+}
+
+.github-link {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.contact>.container {
+    margin: 0;
+}
+
+.telegram-block {
+    display: block;
+    margin: 10px 0;
+}
